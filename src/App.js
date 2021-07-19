@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ReactDOM from 'react-dom';
+// import Button from './Forms/button';
+import Form6 from './Forms/form6';
+import Form7 from './Forms/form7';
+import Form8 from './Forms/form8';
+import Header from './Forms/header';
+import Form10  from './Forms/form10';
+import Form from './component/Region/Form';
+import Form2 from './component/Region/Form2';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App=()=>{
+
+  const[number,setNumber]=useState('');
+  const[flag,setFlag]=useState(0);
+ 
+  const InputEvent=(e)=>{
+   setNumber(e.target.value);
+ }
+
+//  const handleChange=()=>{
+//   //  console.log(n);
+//    setNumber(flag+1);
+//  }
+ const onNext=()=>{
+   setFlag(flag+1);
+ }
+
+  return(
+    <>
+    
+      {/* {flag==0 &&(
+      <Form6 
+      number={number} 
+      onNext={onNext}
+      onChange={InputEvent}
+      />
+      )}
+
+      {flag==1&&(
+      <Form7 number={number}
+        onNext={onNext}
+      />)}
+      
+      {flag==2&&(
+        <Form8 
+          onNext={onNext}
+        />)}
+      {flag==3&&(
+        <Form10
+        onNext={onNext} />
+      )} */}
+      {/* <Form /> */}
+       <Form2 />
+    </>
+  )
+   
 }
 
 export default App;
