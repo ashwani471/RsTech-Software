@@ -1,0 +1,22 @@
+.onLoad{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+.right{
+    position: relative;
+    right: 100px;
+    top: 30px;
+    float: right;
+}
+.mid{
+    position: relative;
+    left:-350px;
+   top: 20px;
+}

@@ -145,6 +145,12 @@ input:focus{
   
 }
 
+/* .filled-basic{
+  background-color: lightgray;
+} */
+input#filled-basic {
+  background-color: lightgray;
+}
 .number{
   font-weight: bold;
 }
@@ -180,7 +186,7 @@ input:focus{
   border: 2px solid black;
   background-color: blanchedalmond;
   left: 50px;
-    top: 30px;
+    top: 5px;
   position: relative;
 }
 #back{
