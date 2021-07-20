@@ -1,0 +1,10 @@
+#orderList{
+    display:flex;
+}
+#TextField{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border: 2px solid black;
+    height: 70vh;
+}

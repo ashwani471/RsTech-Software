@@ -31,8 +31,8 @@ const App=()=>{
 
   return(
     <>
-    
-      {/* {flag==0 &&(
+{/*     
+      {flag==0 &&(
       <Form6 
       number={number} 
       onNext={onNext}
@@ -52,11 +52,12 @@ const App=()=>{
       {flag==3&&(
         <Form10
         onNext={onNext} />
-      )} */}
-      {/* <Form /> */}
-       {/* <Form2 /> */}
-       {/* <Form3 /> */}
-       {/* <Form4 /> */}
+      )}  */}
+      {/* <Form /> 
+       <Form2 />
+        <Form3 />
+        <Form4 />
+       */}
        <Form5 />
     </>
   )
